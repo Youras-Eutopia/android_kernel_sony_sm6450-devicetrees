@@ -26,6 +26,7 @@
 
 &usb0 {
 	dwc3@a600000 {
+		snps,usb2-gadget-lpm-disable;
 		snps,usb2-lpm-disable;
 	};
 };
