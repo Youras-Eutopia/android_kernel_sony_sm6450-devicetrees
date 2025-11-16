@@ -12,11 +12,11 @@
 		pinctrl-names = "default";
 		pinctrl-0 = <&key_vol_up_default>;
 
-		vol_up {
-			label = "volume_up";
+		vol_down {
+			label = "volume_down";
 			gpios = <&pm6450_gpios 1 GPIO_ACTIVE_LOW>;
 			linux,input-type = <1>;
-			linux,code = <KEY_VOLUMEUP>;
+			linux,code = <KEY_VOLUMEDOWN>;
 			gpio-key,wakeup;
 			debounce-interval = <15>;
 			linux,can-disable;
