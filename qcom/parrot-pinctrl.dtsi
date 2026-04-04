@@ -8,7 +8,7 @@
 		interrupt-controller;
 		#interrupt-cells = <2>;
 		wakeup-parent = <&pdc>;
-		qcom,gpios-reserved = <0 1 2 3 38>;
+		qcom,gpios-reserved = <38>;
 
 
 		bt_en_sleep: bt_en_sleep {
